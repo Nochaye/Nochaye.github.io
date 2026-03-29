@@ -1,2 +1,2 @@
-# Nocahye.github.io
+# Nochaye.github.io
 我的导航网页
