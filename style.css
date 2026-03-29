@@ -1,0 +1,74 @@
+/* 全局基础样式 - 让整个页面更舒服 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Microsoft YaHei", sans-serif;
+}
+
+body {
+  /* 背景颜色（浅蓝色，柔和好看） */
+  background-color: #f0f4f8;
+  
+  /* 如果你想用背景图片，就用这行（把图片地址换掉） */
+  background-image: url("./background.png");
+  
+  /* 背景不重复 */
+  background-repeat: no-repeat;
+  
+  /* 背景铺满整个屏幕 */
+  background-size: cover;
+  
+  /* 背景固定不动，滚动页面时不跟着走 */
+  background-attachment: fixed;
+  
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+
+/* 好看的卡片样式（最常用） */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px); /* 鼠标悬浮上浮效果 */
+}
+
+/* 美观标题 */
+.title {
+  font-size: 24px;
+  color: #2d3748;
+  margin-bottom: 15px;
+  border-left: 4px solid #4299e1;
+  padding-left: 12px;
+}
+
+/* 简约按钮 */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4299e1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background-color: #3182ce;
+}
+
+/* 段落文字 */
+.text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
