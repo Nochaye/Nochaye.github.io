@@ -72,3 +72,22 @@ body {
   color: #555;
   margin-bottom: 15px;
 }
+
+
+.box {
+  height: auto;
+  width: auto;
+  background: #42b983;
+  color: white;
+  display: flex;
+  font-size: large;
+}
+
+.command {
+  height: auto;
+  width: auto;
+  background: red;
+  color: plum;
+  display: flex;
+  font-size: large;
+}
