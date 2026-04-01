@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的linux命令</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="box">
+        <p>1.使用命令更改全局字体大小：适用于初始字体太小但是设置放大字体太大。</p>
+    </div>
+
+    <div class="command" style="margin-bottom: 20px;">
+        <p>linux：gsettings set org.gnome.desktop.interface text-scaling-factor 1.10(自改)</p>
+    </div>
+
+    <div class="box">
+        <p>2.增加运行权限。</p>
+    </div>
+
+    <div class="command" style="margin-bottom: 20px;">
+        <p>linux：chmod +x yourscrip.sh</p>
+    </div>
+    
+    <div class="box">
+        <p>3.挂在NTFS硬盘。</p>
+    </div>
+
+    <div class="command">
+        <p>linux：sudo mkdir -p /mnt/ntfs_disk</p>
+    </div>
+
+    <div class="command" style="margin-bottom: 20px;">
+        <p>linux:sudo mount -t ntfs-3g /dev/sda1 /mnt/ntfs_disk</p>
+    </div>
+</body>
+</html>
