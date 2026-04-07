@@ -24,5 +24,5 @@ function congadulation_daily(){
 function random_luck(){
     let max_size_luck = 100
     let rand = Math.floor(Math.random() * max_size_luck)
-    alert("luck:" + rand)
+    alert("今日运气值：" + rand)
 }
