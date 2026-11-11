@@ -55,3 +55,30 @@ h2{font-size:25px}
 @media(max-width:950px){.reading-layout{display:flex;flex-direction:column}.calendar-panel{width:100%;order:-1}.calendar button,.calendar>span{aspect-ratio:auto;height:40px}.calendar-panel .calendar-note{font-size:14px}}
 @media(max-width:620px){.topbar{padding:12px 18px;align-items:center}.topbar time{display:none}.topbar>.topbar-actions{flex-wrap:nowrap}.topbar{font-size:14px}.sidebar nav a span{font-size:14px}.sidebar nav a{padding:8px 5px}.hero p{font-size:16px}.links-grid{grid-template-columns:1fr}.link-card h3{font-size:18px}.link-card p{font-size:16px}.link-card .origin{display:block;font-size:13px}.site-icon{width:40px;height:40px;font-size:20px}.link-main{padding:18px 44px 18px 16px;gap:14px}.tabs button{font-size:15px;padding:7px 10px}.article{padding:17px 14px;gap:12px;align-items:flex-start}.article h3{font-size:19px}.article p{font-size:16px}.article-meta{font-size:14px}.article-number{width:44px;height:60px;font-size:24px}.article-number small{font-size:12px}.article-arrow{display:none}.reading-toolbar{flex-wrap:wrap}.reading-toolbar .search{min-width:160px}.footer{font-size:14px}.reader-bar{font-size:15px}.reader-status{font-size:14px}.form-grid label{font-size:16px}}
 #date-filter button{color:inherit}
+/* A slow highlight travels across the lettering, with quiet star movement. */
+.shimmer-text{--shine-ink:var(--ink);color:var(--shine-ink)}
+.side-note .shimmer-text{--shine-ink:#536b5e}
+.art-label.shimmer-text{--shine-ink:#64785c}
+@supports ((background-clip:text) or (-webkit-background-clip:text)){
+  .shimmer-text{background-image:linear-gradient(105deg,var(--shine-ink) 0%,var(--shine-ink) 42%,#b88b47 47%,#8cb49a 50%,var(--shine-ink) 58%,var(--shine-ink) 100%);background-size:260% 100%;background-clip:text;-webkit-background-clip:text;color:transparent;animation:letter-shine 7s ease-in-out infinite}
+  .art-label.shimmer-text{animation-delay:1.5s}
+  .side-note .shimmer-text{animation-delay:3s}
+}
+.brand-icon{animation:brand-sway 6s ease-in-out infinite;transform-origin:center}
+.brand-dot,.tiny-star,.small-orbit{animation:star-glow 4.5s ease-in-out infinite}
+.tiny-star{display:inline-block}
+.small-orbit{animation-delay:1.5s}
+.art-star{animation:star-drift 9s ease-in-out infinite;transform-origin:center}
+.orbit{animation:orbit-sway 12s ease-in-out infinite}
+.hero h1>.title-char{display:inline-block;color:inherit;animation:title-arrive .6s cubic-bezier(.22,.7,.25,1) both;animation-delay:calc(var(--char-index)*65ms)}
+.hero h1>.title-stop{color:var(--orange)}
+@keyframes letter-shine{0%,15%{background-position:100% 50%}65%,100%{background-position:0% 50%}}
+@keyframes brand-sway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(18deg)}}
+@keyframes star-glow{0%,100%{opacity:.7;transform:translateY(0) scale(.95)}50%{opacity:1;transform:translateY(-3px) scale(1.08);text-shadow:0 0 12px #d78a5655}}
+@keyframes star-drift{0%,100%{transform:translateY(0) rotate(12deg)}50%{transform:translateY(-7px) rotate(34deg)}}
+@keyframes orbit-sway{0%,100%{transform:rotate(-32deg)}50%{transform:rotate(-22deg)}}
+@keyframes title-arrive{from{opacity:0;transform:translateX(-14px);filter:blur(3px)}to{opacity:1;transform:translateX(0);filter:blur(0)}}
+@media(prefers-reduced-motion:reduce){
+  .shimmer-text,.brand-icon,.brand-dot,.tiny-star,.small-orbit,.art-star,.orbit,.hero h1>.title-char{animation:none}
+  .shimmer-text{background:none;color:var(--shine-ink)}
+}
