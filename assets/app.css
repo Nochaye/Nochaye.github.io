@@ -45,26 +45,13 @@ h2{font-size:25px}
 .reader-status,.help,.form-grid label,.admin-actions button{font-size:15px}
 .reader-bar{font-size:16px}
 .form-grid input,.form-grid textarea,.form-grid select{font-size:16px}
-/* Canvas text adapts to the selected color; cards retain a stable light surface. */
+/* Readable canvas text and stable light card surfaces. */
 .hero,.hero p,.section-heading h2,.section-heading h2 small{color:var(--canvas-ink)}
 .hero .eyebrow,.section-heading .eyebrow,.source-note,.footer,.section-heading .text-link,#date-filter{color:var(--canvas-muted)}
 .tabs{background:var(--paper);border:1px solid var(--line);border-radius:9px;padding:6px;width:fit-content;max-width:100%}
 .topbar{height:auto;min-height:80px;gap:16px;background:var(--paper);font-size:15px;padding-top:14px;padding-bottom:14px}
 .topbar>.topbar-actions{display:flex;align-items:center;justify-content:flex-end;gap:18px;font-size:14px;color:#536458}
-.appearance{position:relative;flex-shrink:0}
-.appearance summary{cursor:pointer;font-size:16px;font-weight:600;color:var(--green);padding:8px 12px;border:1px solid #c7d4c1;border-radius:7px;list-style:none}
-.appearance summary::-webkit-details-marker{display:none}
-.appearance summary:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
-.appearance-panel{position:absolute;right:0;top:calc(100% + 10px);z-index:30;width:300px;max-width:calc(100vw - 36px);padding:20px;background:white;color:var(--ink);border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 40px #17231c26}
-.appearance-panel strong{font-size:18px}
-.color-presets{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:16px 0}
-.color-presets button{background:white;border:1px solid #c7d4c1;border-radius:6px;padding:7px;font-size:15px}
-.color-presets button::before{content:'';display:block;height:22px;margin-bottom:4px;background:var(--swatch);border:1px solid #8d9d89;border-radius:3px}
-.color-presets button[aria-pressed=true]{outline:2px solid var(--green);outline-offset:1px}
-.custom-color{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0;font-size:16px}
-.custom-color input{width:62px;height:40px;padding:2px;border:1px solid #a8b7a1;background:white;cursor:pointer}
-.appearance-panel p{font-size:14px;color:#536458;margin:12px 0 0}
 @media(max-width:1150px){.reading-layout{grid-template-columns:minmax(0,1fr) 300px}.article{padding:18px;gap:14px}.topbar>.topbar-actions{flex-wrap:wrap;gap:8px 14px}.stats{grid-template-columns:repeat(2,1fr);padding:0}.stats>div{padding:20px}.stats>div:nth-child(2){border-right:0}.stats>div:nth-child(-n+2){border-bottom:1px solid var(--line)}}
 @media(max-width:950px){.reading-layout{display:flex;flex-direction:column}.calendar-panel{width:100%;order:-1}.calendar button,.calendar>span{aspect-ratio:auto;height:40px}.calendar-panel .calendar-note{font-size:14px}}
-@media(max-width:620px){.topbar{padding:12px 18px;align-items:center}.topbar time{display:none}.topbar>.topbar-actions{flex-wrap:nowrap}.topbar{font-size:14px}.appearance summary{font-size:15px;padding:8px}.sidebar nav a span{font-size:14px}.sidebar nav a{padding:8px 5px}.hero p{font-size:16px}.links-grid{grid-template-columns:1fr}.link-card h3{font-size:18px}.link-card p{font-size:16px}.link-card .origin{display:block;font-size:13px}.site-icon{width:40px;height:40px;font-size:20px}.link-main{padding:18px 44px 18px 16px;gap:14px}.tabs button{font-size:15px;padding:7px 10px}.article{padding:17px 14px;gap:12px;align-items:flex-start}.article h3{font-size:19px}.article p{font-size:16px}.article-meta{font-size:14px}.article-number{width:44px;height:60px;font-size:24px}.article-number small{font-size:12px}.article-arrow{display:none}.reading-toolbar{flex-wrap:wrap}.reading-toolbar .search{min-width:160px}.footer{font-size:14px}.reader-bar{font-size:15px}.reader-status{font-size:14px}.form-grid label{font-size:16px}}
+@media(max-width:620px){.topbar{padding:12px 18px;align-items:center}.topbar time{display:none}.topbar>.topbar-actions{flex-wrap:nowrap}.topbar{font-size:14px}.sidebar nav a span{font-size:14px}.sidebar nav a{padding:8px 5px}.hero p{font-size:16px}.links-grid{grid-template-columns:1fr}.link-card h3{font-size:18px}.link-card p{font-size:16px}.link-card .origin{display:block;font-size:13px}.site-icon{width:40px;height:40px;font-size:20px}.link-main{padding:18px 44px 18px 16px;gap:14px}.tabs button{font-size:15px;padding:7px 10px}.article{padding:17px 14px;gap:12px;align-items:flex-start}.article h3{font-size:19px}.article p{font-size:16px}.article-meta{font-size:14px}.article-number{width:44px;height:60px;font-size:24px}.article-number small{font-size:12px}.article-arrow{display:none}.reading-toolbar{flex-wrap:wrap}.reading-toolbar .search{min-width:160px}.footer{font-size:14px}.reader-bar{font-size:15px}.reader-status{font-size:14px}.form-grid label{font-size:16px}}
 #date-filter button{color:inherit}

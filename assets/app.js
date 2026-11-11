@@ -1,4 +1,3 @@
-import './appearance.js';
 import {$,esc,today,readLocal,writeLocal,json,safeURL,viewCount} from './common.js';
 let links=[],articles=[],category='全部',dateFilter='',favorites=new Set(readLocal('starcape-favorites',[]));
 let month=today().slice(0,7);
