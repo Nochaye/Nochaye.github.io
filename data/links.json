@@ -151,5 +151,140 @@
     "category": "探索与工具",
     "icon": "r",
     "source": "原导航 · 保留"
+  },
+  {
+    "id": "google",
+    "title": "Google",
+    "description": "搜索网页与技术问题",
+    "url": "https://www.google.com/",
+    "category": "常用",
+    "icon": "G",
+    "source": "个人精选"
+  },
+  {
+    "id": "deepseek",
+    "title": "DeepSeek",
+    "description": "了解并进入 DeepSeek AI 服务",
+    "url": "https://www.deepseek.com/",
+    "category": "常用",
+    "icon": "D",
+    "source": "个人精选"
+  },
+  {
+    "id": "doubao",
+    "title": "豆包",
+    "description": "AI 问答与日常辅助",
+    "url": "https://www.doubao.com/",
+    "category": "常用",
+    "icon": "豆",
+    "source": "个人精选"
+  },
+  {
+    "id": "google-translate",
+    "title": "Google 翻译",
+    "description": "翻译文本并辅助理解外语",
+    "url": "https://translate.google.com/",
+    "category": "英语学习",
+    "icon": "G",
+    "source": "个人精选"
+  },
+  {
+    "id": "deepseek-api-docs",
+    "title": "DeepSeek API 文档",
+    "description": "查询 API 接入方法与参数",
+    "url": "https://api-docs.deepseek.com/",
+    "category": "开发学习",
+    "icon": "D",
+    "source": "个人精选"
+  },
+  {
+    "id": "gemini",
+    "title": "Gemini",
+    "description": "使用 Google AI 对话服务",
+    "url": "https://gemini.google.com/",
+    "category": "常用",
+    "icon": "G",
+    "source": "个人精选"
+  },
+  {
+    "id": "youtube",
+    "title": "YouTube",
+    "description": "观看教程与创作视频",
+    "url": "https://www.youtube.com/",
+    "category": "游戏与创作",
+    "icon": "Y",
+    "source": "个人精选"
+  },
+  {
+    "id": "microsoft-learn",
+    "title": "Microsoft Learn",
+    "description": "查阅微软开发文档与学习材料",
+    "url": "https://learn.microsoft.com/",
+    "category": "开发学习",
+    "icon": "M",
+    "source": "个人精选"
+  },
+  {
+    "id": "pintia",
+    "title": "PTA 程序设计类实验辅助教学平台",
+    "description": "编程练习与在线评测",
+    "url": "https://pintia.cn/",
+    "category": "开发学习",
+    "icon": "P",
+    "source": "个人精选"
+  },
+  {
+    "id": "chatgpt",
+    "title": "ChatGPT",
+    "description": "AI 问答、写作与学习辅助",
+    "url": "https://chatgpt.com/",
+    "category": "常用",
+    "icon": "C",
+    "source": "个人精选"
+  },
+  {
+    "id": "vscode",
+    "title": "Visual Studio Code",
+    "description": "获取代码编辑器与使用文档",
+    "url": "https://code.visualstudio.com/",
+    "category": "开发学习",
+    "icon": "V",
+    "source": "个人精选"
+  },
+  {
+    "id": "leetcode",
+    "title": "力扣",
+    "description": "算法练习与题解学习",
+    "url": "https://leetcode.cn/",
+    "category": "开发学习",
+    "icon": "力",
+    "source": "个人精选"
+  },
+  {
+    "id": "mdn",
+    "title": "MDN Web Docs",
+    "description": "查阅 HTML、CSS 与 JavaScript 文档",
+    "url": "https://developer.mozilla.org/",
+    "category": "开发学习",
+    "icon": "M",
+    "source": "个人精选"
+  },
+  {
+    "id": "tld-modding-wiki",
+    "title": "The Long Dark Modding Wiki",
+    "description": "查找漫漫长夜 Mod 开发资料",
+    "url": "https://the-long-dark-modding.fandom.com/",
+    "category": "游戏与创作",
+    "icon": "T",
+    "source": "个人精选"
+  },
+  {
+    "id": "british-council",
+    "title": "British Council LearnEnglish",
+    "description": "英语阅读、听力与语法练习",
+    "url": "https://learnenglish.britishcouncil.org/",
+    "category": "英语学习",
+    "icon": "B",
+    "source": "个人精选"
   }
 ]
