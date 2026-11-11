@@ -1,0 +1,155 @@
+[
+  {
+    "id": "github",
+    "title": "GitHub",
+    "description": "开源项目与代码的起点",
+    "url": "https://github.com/",
+    "category": "常用",
+    "icon": "GH",
+    "source": "原导航 · 保留"
+  },
+  {
+    "id": "bing",
+    "title": "Bing",
+    "description": "搜索问题，发现答案",
+    "url": "https://cn.bing.com/",
+    "category": "常用",
+    "icon": "b",
+    "source": "原导航 · 保留"
+  },
+  {
+    "id": "bilibili",
+    "title": "哔哩哔哩",
+    "description": "教程、创作与一点快乐",
+    "url": "https://www.bilibili.com/",
+    "category": "常用",
+    "icon": "▣",
+    "source": "原导航 · 保留"
+  },
+  {
+    "id": "baidu",
+    "title": "百度",
+    "description": "中文搜索与生活信息",
+    "url": "https://www.baidu.com/",
+    "category": "常用",
+    "icon": "百",
+    "source": "原导航 · 保留"
+  },
+  {
+    "id": "runoob",
+    "title": "菜鸟教程",
+    "description": "随手查语法，动手学开发",
+    "url": "https://www.runoob.com/",
+    "category": "开发学习",
+    "icon": "R",
+    "source": "原导航 · 保留"
+  },
+  {
+    "id": "astrbot",
+    "title": "AstrBot",
+    "description": "探索聊天机器人与插件",
+    "url": "https://github.com/AstrBotDevs/AstrBot",
+    "category": "开发学习",
+    "icon": "✧",
+    "source": "原导航 · 保留"
+  },
+  {
+    "id": "linux",
+    "title": "Linux 命令",
+    "description": "自己的命令速查笔记",
+    "url": "linux_command.html",
+    "category": "开发学习",
+    "icon": ">_",
+    "source": "原导航 · 保留"
+  },
+  {
+    "id": "news",
+    "title": "News in Levels",
+    "description": "按等级读新闻，每天练一点",
+    "url": "https://www.newsinlevels.com/",
+    "category": "英语学习",
+    "icon": "N",
+    "source": "学习对话 · 新增"
+  },
+  {
+    "id": "forge",
+    "title": "Forge Blueprints",
+    "description": "漫漫长夜合成配方 Mod 项目",
+    "url": "https://github.com/Jods-Its/Forge-Blueprints-DLC",
+    "category": "游戏与创作",
+    "icon": "⚒",
+    "source": "学习对话 · 新增"
+  },
+  {
+    "id": "steam",
+    "title": "Steam",
+    "description": "游戏、社区与创意工坊",
+    "url": "https://store.steampowered.com/",
+    "category": "游戏与创作",
+    "icon": "S",
+    "source": "原导航 · 保留"
+  },
+  {
+    "id": "renpy",
+    "title": "Ren’Py",
+    "description": "从故事开始，制作视觉小说",
+    "url": "https://www.renpy.org/",
+    "category": "游戏与创作",
+    "icon": "R",
+    "source": "原导航 · 保留"
+  },
+  {
+    "id": "wikipedia",
+    "title": "Wikipedia",
+    "description": "顺着一个词，探索新知识",
+    "url": "https://www.wikipedia.org/",
+    "category": "探索与工具",
+    "icon": "W",
+    "source": "原导航 · 保留"
+  },
+  {
+    "id": "libre",
+    "title": "LibreOffice",
+    "description": "开源文档、表格与演示工具",
+    "url": "https://www.libreoffice.org/",
+    "category": "探索与工具",
+    "icon": "▥",
+    "source": "原导航 · 保留"
+  },
+  {
+    "id": "winrar",
+    "title": "WinRAR",
+    "description": "压缩与解压工具",
+    "url": "https://www.win-rar.com/",
+    "category": "探索与工具",
+    "icon": "▤",
+    "source": "原导航 · 保留"
+  },
+  {
+    "id": "fortune",
+    "title": "今日运势",
+    "description": "原导航保留的趣味小实验",
+    "url": "text.html",
+    "category": "探索与工具",
+    "icon": "✦",
+    "source": "原导航 · 保留"
+  },
+  {
+    "id": "byrut",
+    "title": "byrutgame",
+    "description": "原导航的游戏资源入口",
+    "url": "https://byrutgame.org/",
+    "category": "游戏与创作",
+    "icon": "B",
+    "source": "原导航 · 保留"
+  },
+  {
+    "id": "rutracker",
+    "title": "RuTracker",
+    "description": "原导航的资源社区入口",
+    "url": "https://rutracker.org/",
+    "category": "探索与工具",
+    "icon": "r",
+    "source": "原导航 · 保留"
+  }
+]
