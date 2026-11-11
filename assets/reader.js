@@ -12,9 +12,10 @@ async function openReading() {
   document.title = article.title + ' · StarCape';
   const response = await fetch(article.path, {cache: 'no-store'});
   if (!response.ok) throw new Error('文章文件暂时不可用，请返回总览重试。');
-  const html = await response.text();
   const frame = $('#reader-frame');
-  frame.srcdoc = html;
+  // Load the article at its own URL so #section links stay in the article.
+  // srcdoc inherits reader.html as its base URL and can nest the reader.
+  frame.src = article.path + '?v=20261111-anchors';
   frame.hidden = false;
   const saved = countView(id);
   $('#reader-status').textContent = `期次 ${article.edition} · 更新 ${article.updated} · ${saved ? viewCount(id) + ' 次本机查看' : '浏览器禁止保存查看次数'} · 原文日期 ${article.published || '未填写'}`;
